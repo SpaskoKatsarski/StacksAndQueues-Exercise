@@ -36,12 +36,7 @@ namespace T03._Maximum_and_Minimum_Element
                 {
                     Console.WriteLine(stack.Min());
                 }
-
-                if (firstCommand && secondCommand && thirdCommand && fourthCommand)
-                {
-                    break;
-                }
-
+                
                 if (commandArgs[0] == 2)
                 {
                     secondCommand = true;
@@ -53,6 +48,11 @@ namespace T03._Maximum_and_Minimum_Element
                 else if (commandArgs[0] == 4)
                 {
                     fourthCommand = true;
+                }
+
+                if (firstCommand && secondCommand && thirdCommand && fourthCommand)
+                {
+                    break;
                 }
 
                 commandArgs = Console.ReadLine().Split().Select(int.Parse).ToArray();
