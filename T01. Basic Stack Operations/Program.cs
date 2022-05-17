@@ -40,6 +40,8 @@ namespace T01._Basic_Stack_Operations
             {
                 Console.WriteLine(0);
             }
+
+            //Stack<int> stackss = new Stack<int>(Console.ReadLine().Split().Select(int.Parse));
         }
     }
 }

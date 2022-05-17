@@ -17,13 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T06. Songs Queue", "T06. So
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T07. Truck Tour", "T07. Truck Tour\T07. Truck Tour.csproj", "{D725C35A-97E4-456C-99B0-F35C007CE2DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T08. Balanced Parenthesis", "T08. Balanced Parenthesis\T08. Balanced Parenthesis.csproj", "{DFEF578E-08CE-471F-B886-8CD39C76E2D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T08. Balanced Parenthesis", "T08. Balanced Parenthesis\T08. Balanced Parenthesis.csproj", "{DFEF578E-08CE-471F-B886-8CD39C76E2D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T09. Simple Text Editor", "T09. Simple Text Editor\T09. Simple Text Editor.csproj", "{A7E9F490-FD68-429C-808B-0B80A0FE7109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T09. Simple Text Editor", "T09. Simple Text Editor\T09. Simple Text Editor.csproj", "{A7E9F490-FD68-429C-808B-0B80A0FE7109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11. Key Revolver", "T11. Key Revolver\T11. Key Revolver.csproj", "{30725548-C480-416F-851A-0E9F7C084B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T11. Key Revolver", "T11. Key Revolver\T11. Key Revolver.csproj", "{30725548-C480-416F-851A-0E9F7C084B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T.08. Balanced Parenthesis - Resolve", "T.08. Balanced Parenthesis - Resolve\T.08. Balanced Parenthesis - Resolve.csproj", "{774EE501-243E-45C4-80D4-FE089120BB56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T.08. Balanced Parenthesis - Resolve", "T.08. Balanced Parenthesis - Resolve\T.08. Balanced Parenthesis - Resolve.csproj", "{774EE501-243E-45C4-80D4-FE089120BB56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicStackOperations", "BasicStackOperations\BasicStackOperations.csproj", "{D75182F3-689B-4501-8921-36E2E04A16EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxAndMinElement", "MaxAndMinElement\MaxAndMinElement.csproj", "{E59D66A6-AEE1-455C-BAEE-1693FBC44B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFood", "FastFood\FastFood.csproj", "{7EE55C41-0E7A-45BD-BD20-62CE4B47D981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FashionBoutique", "FashionBoutique\FashionBoutique.csproj", "{60771C52-103A-4E10-8ADA-71EFD771E13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{774EE501-243E-45C4-80D4-FE089120BB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{774EE501-243E-45C4-80D4-FE089120BB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{774EE501-243E-45C4-80D4-FE089120BB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D75182F3-689B-4501-8921-36E2E04A16EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D75182F3-689B-4501-8921-36E2E04A16EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D75182F3-689B-4501-8921-36E2E04A16EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D75182F3-689B-4501-8921-36E2E04A16EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E59D66A6-AEE1-455C-BAEE-1693FBC44B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E59D66A6-AEE1-455C-BAEE-1693FBC44B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E59D66A6-AEE1-455C-BAEE-1693FBC44B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E59D66A6-AEE1-455C-BAEE-1693FBC44B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE55C41-0E7A-45BD-BD20-62CE4B47D981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE55C41-0E7A-45BD-BD20-62CE4B47D981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE55C41-0E7A-45BD-BD20-62CE4B47D981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE55C41-0E7A-45BD-BD20-62CE4B47D981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60771C52-103A-4E10-8ADA-71EFD771E13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60771C52-103A-4E10-8ADA-71EFD771E13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60771C52-103A-4E10-8ADA-71EFD771E13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60771C52-103A-4E10-8ADA-71EFD771E13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
